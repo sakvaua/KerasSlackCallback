@@ -19,8 +19,11 @@ slack=SlackCallback(token, channel='#general', model_description=description,mod
 ```
 
 channel - which channel to post results to.
+
 model_description - pretty self explanatory
+
 mode 'min' or 'max' - lower of higher is better (accuracy - max, loss - min)
+
 best_only - report only if there's an improvement
 
 
